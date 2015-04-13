@@ -1,0 +1,7 @@
+useDynLib(L1pack)
+
+export(l1fit, l1pack.control, lad, rmLaplace)
+
+## register S3 methods
+
+S3method(print, lad)
