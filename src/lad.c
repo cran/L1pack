@@ -119,8 +119,8 @@ lad_logLik(double *scale, int n)
 {   /* log-likelihood function under Laplace errors */
     double ans;
 
-    ans = (double) -n * (1.0 + log(*scale));
-    return ans;
+    ans = (double) n * (0.5 * M_LN2 + 1.0 + log(*scale));
+    return -ans;
 }
 
 int
@@ -140,7 +140,7 @@ IRLS(double *y, double *x, DIMS dd, double *coef, double *scale, double *sad,
         /* E-step */
         for (i = 0; i < dd->n; i++)
             weights[i] = do_weight(residuals[i], SAD);
-        
+
         /* M-step */
         IRLS_increment(y, x, dd, fitted, residuals, weights, coef, incr, working);
         newSAD = lad_objective(residuals, dd->n);
@@ -214,7 +214,7 @@ qr_fitted(DIMS dd, double *z, double *coef, double *fitted, double *qraux,
     int i, info = 0, one = 1;
     char *uplo = "U", *diag = "N", *side = "L", *notrans = "N";
 
-    for (i = 0; i < dd->n; i++) 
+    for (i = 0; i < dd->n; i++)
         fitted[i] = 0.0;
     Memcpy(fitted, coef, dd->p);
     F77_CALL(dtrmv)(uplo, notrans, diag, &(dd->p), z, &(dd->n), fitted, &one);
@@ -244,7 +244,7 @@ l1_fit(double *y, double *x, DIMS dd, double *coef, double *scale, double *sad,
     /* save results */
     *sad   = minimum;
     *scale = M_SQRT2 * minimum / dd->n;
-    
+
     /* post-processing */
     gaxpy(fitted, 1.0, x, dd->n, dd->n, dd->p, coef, 1.0);
     for (i = 0; i < dd->n; i++) {

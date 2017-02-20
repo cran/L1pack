@@ -1,10 +1,15 @@
 #include <R_ext/Rdynload.h>
+#include "distn.h"
 #include "lad.h"
 #include "random.h"
 
 static const R_CMethodDef CEntries[]  = {
+    {"dlaplace",        (DL_FUNC) &dlaplace,        8},
     {"lad",             (DL_FUNC) &lad,             11},
+    {"plaplace",        (DL_FUNC) &plaplace,        9},
+    {"qlaplace",        (DL_FUNC) &qlaplace,        9},
     {"rand_laplace",    (DL_FUNC) &rand_laplace,    4},
+    {"rlaplace",        (DL_FUNC) &rlaplace,        6},
     {NULL, NULL, 0}
 };
 
