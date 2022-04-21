@@ -1,5 +1,5 @@
-99f39da59059b7dfb6345cdc4be81526 *ChangeLog
-84842e6074a8b5293d4c6744fc21f6e4 *DESCRIPTION
+ee7ce9ffbc0c0da4cc59c3d9487ecd69 *ChangeLog
+a1420a016c4e6159f6b042886cf00629 *DESCRIPTION
 d23a3fdfc397da26305c3639e62aa434 *NAMESPACE
 71fd34c355c8fdcda748c3eaacbc0dab *R/control.R
 e633fe4ee89bea5882a8b15014b11917 *R/distn.R
@@ -15,7 +15,7 @@ e804211bfd4bacc6821a7356b5efaabc *man/rmLaplace.Rd
 6d9f1f233b5ccd03f2a6a6ea22a23739 *man/simulate.lad.Rd
 5be98ebff0b1b8155e715497e98649a3 *src/Makevars
 84dde4ecdb866a654abcb892abd06654 *src/R_init_L1pack.c
-46a93eab5b8a7b0b4112499564a322c6 *src/base.h
+6e9183660d7e053d953a24f607436a9d *src/base.h
 1fe95a47cc785ca2e7eff73602521af9 *src/distn.c
 6f0ec3f63efeca55bb7b0ffd0257a81b *src/interface.c
 e5ec8dc60a42ed6249b162670897d097 *src/interface.h

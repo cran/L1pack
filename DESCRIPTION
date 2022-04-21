@@ -1,8 +1,8 @@
 Type: Package
 Package: L1pack
 Title: Routines for L1 Estimation
-Version: 0.38.196
-Date: 2020-10-15
+Version: 0.40
+Date: 2022-04-21
 Authors@R: 
     c(person(given = "Felipe", family = "Osorio",
              role = c("aut", "cre"),
@@ -19,11 +19,10 @@ Description: L1 estimation for linear regression, density, distribution function
 Depends: R(>= 3.5.0), fastmatrix
 LinkingTo: fastmatrix
 Imports: stats, grDevices, graphics
-Suggests: heavy
 License: GPL-3
 URL: http://l1pack.mat.utfsm.cl/
 NeedsCompilation: yes
 LazyLoad: yes
-Packaged: 2020-10-14 21:39:57 UTC; felipe
+Packaged: 2022-04-21 14:03:29 UTC; felipe
 Repository: CRAN
-Date/Publication: 2020-10-15 05:00:21 UTC
+Date/Publication: 2022-04-21 14:40:06 UTC
