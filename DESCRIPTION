@@ -1,8 +1,8 @@
 Type: Package
 Package: L1pack
 Title: Routines for L1 Estimation
-Version: 0.40
-Date: 2022-04-21
+Version: 0.41
+Date: 2022-08-12
 Authors@R: 
     c(person(given = "Felipe", family = "Osorio",
              role = c("aut", "cre"),
@@ -23,6 +23,6 @@ License: GPL-3
 URL: http://l1pack.mat.utfsm.cl/
 NeedsCompilation: yes
 LazyLoad: yes
-Packaged: 2022-04-21 14:03:29 UTC; felipe
+Packaged: 2022-08-12 20:41:14 UTC; felipe
 Repository: CRAN
-Date/Publication: 2022-04-21 14:40:06 UTC
+Date/Publication: 2022-08-15 08:20:08 UTC
