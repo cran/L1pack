@@ -1,4 +1,4 @@
-c ID: l1_BR.f, last updated 2022-10-14, F.Osorio
+c ID: CALGO478.f, last updated 2022-10-14, F.Osorio
 
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
       SUBROUTINE L1BR(z, y, n, p, n2, p2, coef, resid, minimum, iter,

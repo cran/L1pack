@@ -1,4 +1,4 @@
-/* ID: wilson-hilferty.c, last updated 2024-01-03, F.Osorio */
+/* ID: wilson_hilferty.c, last updated 2024-01-03, F.Osorio */
 
 #include "base.h"
 #include "interface.h"
