@@ -1,3 +1,7 @@
+0.60 (Jul 08, 2025)
+ * We have added a function for the computation of the L1 concordance correlation 
+   coefficient.
+
 0.52 (Mar 17, 2025)
   * Function to display QQ-plot with simulated envelopes has been added.
 
