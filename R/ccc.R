@@ -208,7 +208,7 @@ restricted.rho1 <- function(x)
   Fit <- list(call = call, x = z, dims = x$dims, center = rep(fit$lambda, p),
               lambda = fit$lambda, Scatter = matrix(fit$Scatter, ncol = p),
               weighted.center = fit$center, logLik = fit$logLik, weights = fit$weights, 
-              distances = fit$distances, numIter = fit$maxiter, speed = speed, 
+              distances = sqrt(fit$distances), numIter = fit$maxiter, speed = speed, 
               converged = FALSE)
 
   # computing restricted Lin's CCC

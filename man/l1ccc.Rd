@@ -54,9 +54,9 @@ l1ccc(x, data, equal.means = FALSE, boots = TRUE, nsamples = 1000, subset, na.ac
   A concordance correlation coefficient to evaluate reproducibility. 
   \emph{Biometrics} \bold{45}, 255-268.
 
-  Vallejos, R., Osorio, F., Ferrer, C. (2025+).
+  Vallejos, R., Osorio, F., Ferrer, C. (2025).
   A new coefficient to measure agreement between two continuous variables.
-  Working paper.
+  doi: 10.48550/arXiv.2507.07913.
 }
 \examples{
 ## data from Bland and Altman (1986). The Lancet 327, 307-310.

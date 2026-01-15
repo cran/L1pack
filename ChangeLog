@@ -1,3 +1,7 @@
+0.62 (Jan 14, 2026 - Today is my daughter's birthday)
+ * Minor corrections have been made to the 'LaplaceFit' and 'envelope.Laplace'
+   functions.
+
 0.60 (Jul 08, 2025)
  * We have added a function for the computation of the L1 concordance correlation 
    coefficient.
